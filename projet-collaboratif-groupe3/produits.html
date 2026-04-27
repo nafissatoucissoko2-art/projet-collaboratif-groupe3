@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME KEY - Catalogue</title>
+    <meta name="description" content="Découvrez tous les produits HOME KEY : décoration, mobilier, luminaires et plus.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Feuilles de style -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/produits.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!-- Auteur : Étudiant 2 -->
+</head>
+<body>
+
+    <!-- ========== HEADER ========== -->
+    <header class="header">
+        <div class="header-container">
+            <a href="index.html" class="logo">HOME <span>KEY</span></a>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="produits.html" class="active">Catalogue</a></li>
+                    <li><a href="detail.html">Produit</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-icons">
+                <a href="#" aria-label="Recherche">🔍</a>
+                <a href="#" aria-label="Compte">👤</a>
+                <a href="#" aria-label="Panier">🛒</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ========== EN-TÊTE DE PAGE ========== -->
+    <section class="page-header">
+        <div class="page-header-content">
+            <p class="breadcrumb">Accueil / Catalogue</p>
+            <h1>Notre catalogue</h1>
+            <p>Découvrez tous nos articles pour sublimer votre maison</p>
+        </div>
+    </section>
+
+    <!-- ========== CATALOGUE ========== -->
+    <section class="catalog">
+        <div class="catalog-container">
+
+            <!-- Sidebar filtres -->
+            <aside class="filters">
+                <h3>Filtrer par</h3>
+                
+                <div class="filter-group">
+                    <h4>Catégories</h4>
+                    <ul class="filter-list">
+                        <li><a href="#" class="filter-active">Toutes (9)</a></li>
+                        <li><a href="#">Salon (3)</a></li>
+                        <li><a href="#">Cuisine (2)</a></li>
+                        <li><a href="#">Chambre (2)</a></li>
+                        <li><a href="#">Décoration (2)</a></li>
+                    </ul>
+                </div>
+
+                <div class="filter-group">
+                    <h4>Prix</h4>
+                    <ul class="filter-list">
+                        <li><a href="#">Moins de 20 000 FCFA</a></li>
+                        <li><a href="#">20 000 - 50 000 FCFA</a></li>
+                        <li><a href="#">Plus de 50 000 FCFA</a></li>
+                    </ul>
+                </div>
+
+                <div class="filter-group">
+                    <h4>Couleurs</h4>
+                    <div class="color-filters">
+                        <span class="color-swatch" style="background:#A47551" title="Bois"></span>
+                        <span class="color-swatch" style="background:#87A96B" title="Vert"></span>
+                        <span class="color-swatch" style="background:#C9A961" title="Doré"></span>
+                        <span class="color-swatch" style="background:#F5EFE6" title="Crème"></span>
+                        <span class="color-swatch" style="background:#2C2416" title="Noir"></span>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Grille produits -->
+            <div class="products-section">
+                <div class="catalog-toolbar">
+                    <p><strong>9 produits</strong> trouvés</p>
+                    <select class="sort-select">
+                        <option>Trier par : Pertinence</option>
+                        <option>Prix croissant</option>
+                        <option>Prix décroissant</option>
+                        <option>Nouveautés</option>
+                    </select>
+                </div>
+
+                <div class="products-grid">
+                    <!-- Produit 1 -->
+                    <article class="product-card">
+                        <div class="product-image" style="background: linear-gradient(135deg, #E8DFCA 0%, #A47551 100%);">
+                            <span class="product-badge">Nouveau</span>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category">Salon</span>
+                            <h4>Lampe Lumina</h4>
+                            <p class="product-price">45 000 FCFA</p>
+                            <a href="detail.html" class="btn btn-primary btn-sm">Voir</a>
+                        </div>
+                    </article>
+
+                    <!-- Produit 2 -->
+                    <article class="product-card">
+                        <div class="product-image" style="background: linear-gradient(135deg, #87A96B 0%, #6B4423 100%);">
+                            <span class="product-badge badge-sale">-20%</span>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category">Décoration</span>
+                            <h4>Vase Botanic</h4>
+                            <p class="product-price">28 000 FCFA</p>
+                            <a href="detail.html" class="btn btn-primary btn-sm">Voir</a>
+                        </div>
+                    </article>
+
+                    <!-- Produit 3 -->
+                    <article class="product-card">
+                        <div class="product-image" style="background: linear-gradient(135deg, #C9A961 0%, #A47551 100%);"></div>
+                        <div class="product-info">
+                            <span class="product-category">Salon</span>
+                            <h4>Coussin Velours</h4>
+                            <p class="product-price">15 000 FCFA</p>
+                            <a href="detail.html" class="btn btn-primary btn-sm">Voir</a>
+                        </div>
+                    </article>
+
+                    <!-- Produit 4 -->
+                    <article class="product-card">
+                        <div class="product-image" style="background: linear-gradient(135deg, #F5EFE6 0%, #C9A961 100%);">
+                            <span class="product-badge">Top vente</span>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category">Décoration</span>
+                            <h4>Miroir Doré</h4>
+                            <p class="product-price">62 000 FCFA</p>
+                            <a href="detail.html" class="btn btn-primary btn-sm">Voir</a>
+                        </div>
+                    </article>
+
+                    <!-- Produit 5 -->
+                    <article class="product-card">
+                        <div class="product-image" style="background: linear-gradient(135deg, #6B4423 0%, #2C2416 100%);"></div>
+                        <div class="product-info">
+                            <span class="product-category">Cuisine</span>
+                            <h4>Set Bois Naturel</h4>
+                            <p class="product-price">22 000 FCFA</p>
+                            <a href="detail.html" class="btn btn-primary btn-sm">Voir</a>
+                        </div>
+                    </article>
+
+                    <!-- Produit 6 -->
+                    <article class="product-card">
+                        <div class="product-image" style="background: linear-gradient(135deg, #87A96B 0%, #C9A961 100%);">
+                            <span class="product-badge badge-sale">-15%</span>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category">Cuisine</span>
+                            <h4>Vaisselle Sauge</h4>
+                            <p class="product-price">35 000 FCFA</p>
+                            <a href="detail.html" class="btn btn-primary btn-sm">Voir</a>
+                        </div>
+                    </article>
+
+                    <!-- Produit 7 -->
+                    <article class="product-card">
+                        <div class="product-image" style="background: linear-gradient(135deg, #E8DFCA 0%, #87A96B 100%);"></div>
+                        <div class="product-info">
+                            <span class="product-category">Chambre</span>
+                            <h4>Linge de lit Coton</h4>
+                            <p class="product-price">48 000 FCFA</p>
+                            <a href="detail.html" class="btn btn-primary btn-sm">Voir</a>
+                        </div>
+                    </article>
+
+                    <!-- Produit 8 -->
+                    <article class="product-card">
+                        <div class="product-image" style="background: linear-gradient(135deg, #A47551 0%, #C9A961 100%);">
+                            <span class="product-badge">Nouveau</span>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category">Chambre</span>
+                            <h4>Table de chevet</h4>
+                            <p class="product-price">75 000 FCFA</p>
+                            <a href="detail.html" class="btn btn-primary btn-sm">Voir</a>
+                        </div>
+                    </article>
+
+                    <!-- Produit 9 -->
+                    <article class="product-card">
+                        <div class="product-image" style="background: linear-gradient(135deg, #2C2416 0%, #A47551 100%);"></div>
+                        <div class="product-info">
+                            <span class="product-category">Salon</span>
+                            <h4>Tapis Tissé Main</h4>
+                            <p class="product-price">85 000 FCFA</p>
+                            <a href="detail.html" class="btn btn-primary btn-sm">Voir</a>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Pagination -->
+                <div class="pagination">
+                    <a href="#" class="page-link">&laquo;</a>
+                    <a href="#" class="page-link active">1</a>
+                    <a href="#" class="page-link">2</a>
+                    <a href="#" class="page-link">3</a>
+                    <a href="#" class="page-link">&raquo;</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h4>HOME KEY</h4>
+                <p>La clé de votre intérieur. Décoration et aménagement de qualité.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Navigation</h4>
+                <a href="index.html">Accueil</a>
+                <a href="produits.html">Catalogue</a>
+                <a href="detail.html">Produits</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-col">
+                <h4>Service client</h4>
+                <a href="#">Livraison</a>
+                <a href="#">Retours</a>
+                <a href="#">FAQ</a>
+                <a href="#">CGV</a>
+            </div>
+            <div class="footer-col">
+                <h4>Contactez-nous</h4>
+                <p>📍 Dakar, Sénégal</p>
+                <p>📞 +221 33 123 45 67</p>
+                <p>✉️ contact@homekey.sn</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 HOME KEY. Tous droits réservés. Projet étudiant.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
