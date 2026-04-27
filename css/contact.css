@@ -1,0 +1,19 @@
+.contact-container {
+  display: flex;
+  gap: 2rem;
+}
+form input, form textarea, form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+form button {
+  background: rgb(69, 104, 133);
+  color: white;
+  border: none;
+  padding: 12px;
+  cursor: pointer;
+}
+form button:hover {
+  background: rgb(76, 64, 34);
+}
