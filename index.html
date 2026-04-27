@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME KEY - La clé de votre intérieur</title>
+    <meta name="description" content="HOME KEY, votre boutique en ligne d'articles de décoration et d'aménagement intérieur.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Feuilles de style -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/accueil.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!-- Auteur : Étudiant 1 (Chef de projet) -->
+</head>
+<body>
+
+    <!-- ========== HEADER (commun à toutes les pages) ========== -->
+    <header class="header">
+        <div class="header-container">
+            <a href="index.html" class="logo">HOME <span>KEY</span></a>
+            <nav class="nav">
+                <ul>
+                    <li><a href="index.html" class="active">Accueil</a></li>
+                    <li><a href="produits.html">Catalogue</a></li>
+                    <li><a href="detail.html">Produit</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-icons">
+                <a href="#" aria-label="Recherche">🔍</a>
+                <a href="#" aria-label="Compte">👤</a>
+                <a href="#" aria-label="Panier">🛒</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ========== HERO BANNER ========== -->
+    <section class="hero">
+        <div class="hero-content">
+            <p class="hero-tag">— Bienvenue chez HOME KEY —</p>
+            <h1>La clé de<br><em>votre intérieur</em></h1>
+            <p class="hero-text">Découvrez notre sélection d'articles déco et d'aménagement pour transformer chaque pièce de votre maison en un lieu unique.</p>
+            <div class="hero-buttons">
+                <a href="produits.html" class="btn btn-primary">Découvrir le catalogue</a>
+                <a href="#categories" class="btn btn-secondary">Nos catégories</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CATÉGORIES ========== -->
+    <section class="section" id="categories">
+        <div class="section-title">
+            <h2>Explorez par pièce</h2>
+            <p>Trouvez l'inspiration pour chaque espace</p>
+        </div>
+        <div class="categories-grid">
+            <a href="produits.html" class="category-card">
+                <div class="category-icon">🛋️</div>
+                <h3>Salon</h3>
+                <p>Canapés, coussins, tables basses</p>
+            </a>
+            <a href="produits.html" class="category-card">
+                <div class="category-icon">🍽️</div>
+                <h3>Cuisine</h3>
+                <p>Vaisselle, ustensiles, déco</p>
+            </a>
+            <a href="produits.html" class="category-card">
+                <div class="category-icon">🛏️</div>
+                <h3>Chambre</h3>
+                <p>Linge de lit, lampes, miroirs</p>
+            </a>
+            <a href="produits.html" class="category-card">
+                <div class="category-icon">🌿</div>
+                <h3>Décoration</h3>
+                <p>Plantes, vases, cadres</p>
+            </a>
+        </div>
+    </section>
+
+    <!-- ========== PRODUITS VEDETTES ========== -->
+    <section class="featured">
+        <div class="section-title">
+            <h2>Nos coups de cœur</h2>
+            <p>Sélection du moment</p>
+        </div>
+        <div class="featured-grid">
+            <article class="product-card">
+                <div class="product-image" style="background: linear-gradient(135deg, #E8DFCA 0%, #A47551 100%);">
+                    <span class="product-badge">Nouveau</span>
+                </div>
+                <div class="product-info">
+                    <h4>Lampe Lumina</h4>
+                    <p class="product-price">45 000 FCFA</p>
+                    <a href="detail.html" class="btn btn-primary btn-sm">Voir le produit</a>
+                </div>
+            </article>
+            <article class="product-card">
+                <div class="product-image" style="background: linear-gradient(135deg, #87A96B 0%, #6B4423 100%);">
+                    <span class="product-badge badge-sale">-20%</span>
+                </div>
+                <div class="product-info">
+                    <h4>Vase Botanic</h4>
+                    <p class="product-price">28 000 FCFA</p>
+                    <a href="detail.html" class="btn btn-primary btn-sm">Voir le produit</a>
+                </div>
+            </article>
+            <article class="product-card">
+                <div class="product-image" style="background: linear-gradient(135deg, #C9A961 0%, #A47551 100%);">
+                </div>
+                <div class="product-info">
+                    <h4>Coussin Velours</h4>
+                    <p class="product-price">15 000 FCFA</p>
+                    <a href="detail.html" class="btn btn-primary btn-sm">Voir le produit</a>
+                </div>
+            </article>
+            <article class="product-card">
+                <div class="product-image" style="background: linear-gradient(135deg, #F5EFE6 0%, #C9A961 100%);">
+                    <span class="product-badge">Top vente</span>
+                </div>
+                <div class="product-info">
+                    <h4>Miroir Doré</h4>
+                    <p class="product-price">62 000 FCFA</p>
+                    <a href="detail.html" class="btn btn-primary btn-sm">Voir le produit</a>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- ========== BANNIÈRE PROMO ========== -->
+    <section class="promo-banner">
+        <div class="promo-content">
+            <h2>Livraison offerte dès 50 000 FCFA</h2>
+            <p>Profitez de notre offre exclusive sur tout le catalogue HOME KEY</p>
+            <a href="produits.html" class="btn btn-primary">J'en profite</a>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER (commun à toutes les pages) ========== -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-col">
+                <h4>HOME KEY</h4>
+                <p>La clé de votre intérieur. Décoration et aménagement de qualité.</p>
+            </div>
+            <div class="footer-col">
+                <h4>Navigation</h4>
+                <a href="index.html">Accueil</a>
+                <a href="produits.html">Catalogue</a>
+                <a href="detail.html">Produits</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer-col">
+                <h4>Service client</h4>
+                <a href="#">Livraison</a>
+                <a href="#">Retours</a>
+                <a href="#">FAQ</a>
+                <a href="#">CGV</a>
+            </div>
+            <div class="footer-col">
+                <h4>Contactez-nous</h4>
+                <p>📍 Dakar, Sénégal</p>
+                <p>📞 +221 33 123 45 67</p>
+                <p>✉️ contact@homekey.sn</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 HOME KEY. Tous droits réservés. Projet étudiant.</p>
+        </div>
+    </footer>
+
+</body>
+</html>

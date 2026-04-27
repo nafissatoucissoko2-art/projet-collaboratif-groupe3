@@ -1,0 +1,202 @@
+/* ========================================
+   HOME KEY - Styles page d'accueil
+   Auteur : Étudiant 1
+   ======================================== */
+
+/* ---------- HERO ---------- */
+.hero {
+    background: linear-gradient(135deg, var(--color-cream) 0%, var(--color-beige) 100%);
+    padding: 6rem 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    right: -10%;
+    width: 500px;
+    height: 500px;
+    background: radial-gradient(circle, rgba(201, 169, 97, 0.15) 0%, transparent 70%);
+    border-radius: 50%;
+}
+
+.hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-tag {
+    color: var(--color-wood);
+    font-style: italic;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+}
+
+.hero h1 {
+    font-size: 4rem;
+    line-height: 1.1;
+    margin-bottom: 1.5rem;
+}
+
+.hero h1 em {
+    color: var(--color-wood);
+    font-style: italic;
+}
+
+.hero-text {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    color: var(--color-text);
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* ---------- CATÉGORIES ---------- */
+.categories-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+
+.category-card {
+    background: var(--color-white);
+    padding: 2.5rem 1.5rem;
+    border-radius: var(--radius);
+    text-align: center;
+    box-shadow: var(--shadow-soft);
+    transition: all var(--transition);
+    cursor: pointer;
+}
+
+.category-card:hover {
+    transform: translateY(-8px);
+    box-shadow: var(--shadow-hover);
+}
+
+.category-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.category-card h3 {
+    color: var(--color-wood-dark);
+    margin-bottom: 0.5rem;
+}
+
+.category-card p {
+    font-size: 0.9rem;
+    color: var(--color-text);
+}
+
+/* ---------- PRODUITS VEDETTES ---------- */
+.featured {
+    background-color: var(--color-white);
+    padding: 4rem 2rem;
+}
+
+.featured-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+}
+
+.product-card {
+    background: var(--color-cream);
+    border-radius: var(--radius);
+    overflow: hidden;
+    transition: all var(--transition);
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-hover);
+}
+
+.product-image {
+    height: 250px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product-badge {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: var(--color-gold);
+    color: var(--color-white);
+    padding: 0.25rem 0.75rem;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.badge-sale {
+    background: #C0392B;
+}
+
+.product-info {
+    padding: 1.25rem;
+    text-align: center;
+}
+
+.product-info h4 {
+    font-family: var(--font-heading);
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.product-price {
+    color: var(--color-wood);
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.btn-sm {
+    padding: 0.5rem 1.25rem;
+    font-size: 0.9rem;
+}
+
+/* ---------- BANNIÈRE PROMO ---------- */
+.promo-banner {
+    background: linear-gradient(135deg, var(--color-wood-dark) 0%, var(--color-wood) 100%);
+    color: var(--color-cream);
+    text-align: center;
+    padding: 4rem 2rem;
+    margin: 4rem 0 0;
+}
+
+.promo-content h2 {
+    color: var(--color-cream);
+    margin-bottom: 1rem;
+}
+
+.promo-content p {
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+.promo-banner .btn-primary {
+    background: var(--color-gold);
+}
+
+.promo-banner .btn-primary:hover {
+    background: var(--color-cream);
+    color: var(--color-wood-dark);
+}
