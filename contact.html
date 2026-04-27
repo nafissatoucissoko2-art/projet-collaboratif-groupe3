@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact - HOME KEY</title>
+  <link rel="stylesheet" href="css/style.css"> <!-- style commun -->
+  <link rel="stylesheet" href="css/contact.css"> <!-- style spécifique -->
+  <link rel="stylesheet" href="css/responsive.css"> <!-- responsive global -->
+</head>
+<body>
+  <header>
+    <h1>HOME KEY</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="produits.html">Catalogue</a></li>
+        <li><a href="detail.html">Produit</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="contact">
+    <h2>Contactez-nous</h2>
+    <div class="contact-container">
+      <!-- Bloc infos -->
+      <div class="infos">
+        <p>📍 Adresse : Dakar, Sénégal</p>
+        <p>📞 Téléphone : +221 77 758 00 10</p>
+        <p>✉️ Email : contact@homekey.com</p>
+        <p>🕒 Horaires : Lun-Sam 9h-18h</p>
+        <div class="socials">
+          <a href="#">Whatsapp</a> | <a href="#">Instagram</a> | <a href="#">Tiktok</a>
+        </div>
+      </div>
+
+      <!-- Formulaire -->
+      <form>
+        <label>Prénom :</label>
+        <input type="text" name="prenom" required>
+
+        <label>Nom :</label>
+        <input type="text" name="nom" required>
+
+        <label>Email :</label>
+        <input type="email" name="email" required>
+
+        <label>Téléphone :</label>
+        <input type="tel" name="tel">
+
+        <label>Sujet :</label>
+        <select name="sujet">
+          <option>Information</option>
+          <option>Commande</option>
+          <option>Service après-vente</option>
+        </select>
+
+        <label>Message :</label>
+        <textarea name="message" required></textarea>
+
+        <div class="options">
+          <input type="checkbox" name="newsletter"> S’abonner à la newsletter<br>
+          <input type="checkbox" name="rgpd" required> J’accepte la politique RGPD
+        </div>
+
+        <button type="submit">Envoyer le message</button>
+      </form>
+    </div>
+
+    <!-- Carte -->
+    <section class="map">
+      <h3>Notre localisation</h3>
+      <iframe src="https://maps.google.com/maps?q=Dakar&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 HOME KEY - Tous droits réservés</p>
+  </footer>
+</body>
+</html>
