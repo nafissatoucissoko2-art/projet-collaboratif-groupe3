@@ -4,74 +4,43 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact - HOME KEY</title>
-  <link rel="stylesheet" href="css/style.css"> <!-- style commun -->
-  <link rel="stylesheet" href="css/contact.css"> <!-- style spécifique -->
-  <link rel="stylesheet" href="css/responsive.css"> <!-- responsive global -->
+  <link rel="stylesheet" href="css/contact.css">
 </head>
 <body>
   <header>
     <h1>HOME KEY</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Accueil</a></li>
-        <li><a href="produits.html">Catalogue</a></li>
-        <li><a href="detail.html">Produit</a></li>
-        <li><a href="contact.html" class="active">Contact</a></li>
-      </ul>
-    </nav>
+    <p class="slogan">La clé de votre intérieur</p>
   </header>
 
-  <main class="contact">
-    <h2>Contactez-nous</h2>
-    <div class="contact-container">
-      <!-- Bloc infos -->
-      <div class="infos">
-        <p>📍 Adresse : Dakar, Sénégal</p>
-        <p>📞 Téléphone : +221 77 758 00 10</p>
-        <p>✉️ Email : contact@homekey.com</p>
-        <p>🕒 Horaires : Lun-Sam 9h-18h</p>
-        <div class="socials">
-          <a href="#">Whatsapp</a> | <a href="#">Instagram</a> | <a href="#">Tiktok</a>
-        </div>
-      </div>
-
-      <!-- Formulaire -->
+  <main>
+    <section class="contact">
+      <h2>Contactez-nous</h2>
       <form>
-        <label>Prénom :</label>
-        <input type="text" name="prenom" required>
-
         <label>Nom :</label>
         <input type="text" name="nom" required>
 
         <label>Email :</label>
         <input type="email" name="email" required>
 
-        <label>Téléphone :</label>
-        <input type="tel" name="tel">
-
-        <label>Sujet :</label>
-        <select name="sujet">
-          <option>Information</option>
-          <option>Commande</option>
-          <option>Service après-vente</option>
-        </select>
-
         <label>Message :</label>
         <textarea name="message" required></textarea>
 
-        <div class="options">
-          <input type="checkbox" name="newsletter"> S’abonner à la newsletter<br>
-          <input type="checkbox" name="rgpd" required> J’accepte la politique RGPD
-        </div>
-
-        <button type="submit">Envoyer le message</button>
+        <button type="submit">Envoyer</button>
       </form>
-    </div>
+    </section>
 
-    <!-- Carte -->
-    <section class="map">
-      <h3>Notre localisation</h3>
-      <iframe src="https://maps.google.com/maps?q=Dakar&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+    <section class="infos">
+      <h3>Nos coordonnées</h3>
+      <p>📍 Dakar, Sénégal</p>
+      <p>📞 +221 77 000 00 00</p>
+      <p>✉️ contact@homekey.com</p>
+    </section>
+
+    <section class="socials">
+      <h3>Suivez-nous</h3>
+      <a href="#"><img src="images/facebook.png" alt="Facebook"></a>
+      <a href="#"><img src="images/instagram.png" alt="Instagram"></a>
+      <a href="#"><img src="images/twitter.png" alt="Twitter"></a>
     </section>
   </main>
 

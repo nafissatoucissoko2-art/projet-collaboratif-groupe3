@@ -1,18 +1,49 @@
+/* Tablette : max 1024px */
 @media (max-width: 1024px) {
   .contact-container {
     flex-direction: column;
+    align-items: center;
+  }
+  .contact {
+    width: 80%;
   }
 }
+
+/* Mobile : max 768px */
 @media (max-width: 768px) {
+  header h1 {
+    font-size: 2em;
+  }
   nav ul {
     flex-direction: column;
+    text-align: center;
+  }
+  .contact {
+    width: 95%;
+    margin: 10px auto;
+  }
+  form input, form textarea, form select {
+    font-size: 14px;
+  }
+  .socials img {
+    width: 35px;
   }
 }
+
+/* Petit mobile : max 480px */
 @media (max-width: 480px) {
   body {
     font-size: 14px;
   }
-  form button {
+  header h1 {
+    font-size: 1.8em;
+  }
+  .contact button {
     width: 100%;
+    font-size: 14px;
+  }
+  .socials img {
+    width: 30px;
+    margin: 5px;
   }
 }
