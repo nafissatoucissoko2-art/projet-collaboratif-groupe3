@@ -8,7 +8,7 @@ form input, form textarea, form select {
   margin-bottom: 10px;
 }
 form button {
-  background: rgb(69, 104, 133);
+  background: rgba(150, 65, 137, 0.495);
   color: white;
   border: none;
   padding: 12px;
