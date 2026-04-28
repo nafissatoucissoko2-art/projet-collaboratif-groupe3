@@ -1,19 +1,65 @@
-.contact-container {
+/* Centrer le logo HOME KEY */
+header {
+  text-align: center;
+  margin: 20px 0;
+}
+header h1 {
+  font-size: 2.5em;
+  color: #333;
+}
+header .slogan {
+  font-style: italic;
+  color: #777;
+}
+
+/* Section Contact en rose clair */
+.contact {
+  background-color: #f8d7da; /* rose clair */
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px auto;
+  width: 60%;
+}
+.contact h2 {
+  text-align: center;
+  color: #b33c5a;
+}
+.contact form {
   display: flex;
-  gap: 2rem;
+  flex-direction: column;
 }
-form input, form textarea, form select {
-  width: 100%;
-  padding: 10px;
+.contact input, .contact textarea {
   margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
 }
-form button {
-  background: rgba(150, 65, 137, 0.495);
+.contact button {
+  background-color: #b33c5a;
   color: white;
-  border: none;
   padding: 12px;
+  border: none;
   cursor: pointer;
 }
-form button:hover {
-  background: rgb(76, 64, 34);
+.contact button:hover {
+  background-color: #922d46;
+}
+
+/* Coordonnées */
+.infos {
+  text-align: center;
+  margin: 20px;
+}
+
+/* Réseaux sociaux avec logos */
+.socials {
+  text-align: center;
+  margin: 20px;
+}
+.socials img {
+  width: 40px;
+  margin: 0 10px;
+  transition: transform 0.3s;
+}
+.socials img:hover {
+  transform: scale(1.2);
 }
